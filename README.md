@@ -1,4 +1,4 @@
-# [SoftUni-HTML-and-CSS / JS Front-End](https://softuni.bg/modules/132/js-front-end/1426)
+# [SoftUni-HTML-and-CSS](https://softuni.bg/modules/132/js-front-end/1426)
 
 HTML & CSS / JS Front-End September 2023
 
