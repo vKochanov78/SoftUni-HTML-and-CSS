@@ -40,3 +40,10 @@ section article header p {
 .paragraph {
     font-size: 24px;
 }
+
+footer {
+    background-color: #444;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
