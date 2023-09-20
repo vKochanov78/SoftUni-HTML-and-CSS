@@ -1,0 +1,16 @@
+/* 
+p {
+    width: 66ch; -> Easier to read when the row is shorter.
+    line-height: 1.5; -> Easier to read when the row higher.
+}
+*/
+
+body {
+    line-height: 1.5;
+}
+
+.site {
+    width: 66ch;
+    background: #CCC;
+    margin: 0 auto;
+}
