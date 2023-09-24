@@ -1,0 +1,4 @@
+article span:nth-of-type(odd) {
+    background-color: red;
+    color: white;
+}
