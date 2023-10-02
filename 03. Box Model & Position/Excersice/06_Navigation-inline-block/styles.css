@@ -1,0 +1,24 @@
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+}
+
+nav {
+    margin-left: 16em;
+}
+
+nav a{
+    margin-left: 1em;
+    margin-top: 2em;
+    display: inline-block;
+    text-decoration: none;
+    color: lightsalmon;
+}
+
+main h1 {
+    font-weight: 644;
+    font-size: 22px;
+}
