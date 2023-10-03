@@ -1,24 +1,38 @@
 body {
     font-family: Helvetica, sans-serif;
+    margin: 50px 70px;
 }
 
-header {
-    display: flex;
+header > h1 {
+    display: inline-block;
+    font-style: 42px;
+    margin-right: 50px;
+}
+
+main > h1 {
+    font-family: Helvetica, serif;
 }
 
 nav {
-    margin-left: 16em;
-}
-
-nav a{
-    margin-left: 1em;
-    margin-top: 2em;
     display: inline-block;
-    text-decoration: none;
-    color: lightsalmon;
 }
 
-main h1 {
-    font-weight: 644;
-    font-size: 22px;
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #118131;
+}
+
+main article p {
+    letter-spacing: auto;
+    word-spacing: 0.1em;
+    line-height: 1.3em;
 }
