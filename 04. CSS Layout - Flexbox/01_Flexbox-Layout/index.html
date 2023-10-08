@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Layout</title>
+    <style>
+
+        body {
+            padding: 5rem;
+            background-color: #EEE;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        body * {
+            padding: 2rem;
+            background-color: #FFF;
+            border-radius: 0.4rem;
+            color: #000;
+
+        }
+
+        header, footer {flex-basis: 100%;}
+
+        main {flex: 8 1 40rem;}
+
+        aside {flex: 2 1 20rem;}
+
+        main, aside {min-height: 10em;}
+
+    </style>
+</head>
+<body>
+    <header>HEADER</header>
+    <main>MAIN</main>
+    <aside>ASIDE</aside>
+    <footer>FOOTER</footer>
+</body>
+</html>
