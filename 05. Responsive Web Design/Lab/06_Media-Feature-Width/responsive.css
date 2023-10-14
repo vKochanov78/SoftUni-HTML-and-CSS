@@ -1,0 +1,10 @@
+@media screen {
+    article {
+        width: 360px;
+        color: red;
+        min-width: 35em;
+        background-color: yellow;
+        min-width: 50em;
+        border: 2px solid blue;
+    }
+}
