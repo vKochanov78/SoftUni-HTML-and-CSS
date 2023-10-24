@@ -1,0 +1,100 @@
+
+
+.section-columns .container {
+    padding: 2em;
+}
+
+.section-columns .section-header {
+    text-align: center;
+}
+
+.section-columns .section-content {
+    display: flex;
+    gap: 2em;
+}
+
+.section-columns .section-content article {
+    flex: 1 1 50%;
+    text-align: left;
+    padding: 0 4em;
+}
+
+.section-features {
+    background: #fff;
+    padding-bottom: 2em;
+}
+
+.section-features .section-content {
+    padding: 0 6em;
+}
+
+.section-features h4 {
+    color: black;
+    font-weight: 300;
+    font-size: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.section-features p {
+    font-weight: 200;
+}
+
+.section-features .container a {
+    display: block;
+    font-weight: 600;
+    max-width: 9vw;
+    text-decoration: none;
+    background: #fff;
+    color: #ba9372;
+    padding: 0.5em 1em;
+    border: 2px solid #ba9372;
+}
+
+
+.section-sponsors article {
+    padding-bottom: 2em;
+    display: flex;
+    justify-content:center;
+}
+
+.section-sponsors img {
+    padding-top: 1em;
+    padding-right: 2em;
+}
+
+.section-sponsors .media {
+    display: flex;
+    border-radius: 0.3em;
+    margin-bottom: 1em;
+    max-width: 8vw;
+    max-height: 13vh;
+    gap: 3em;
+    
+}
+
+.section-sponsors p {
+    max-height: 5vh;
+    padding: 0 1em;
+    margin-top: 1em;
+    text-align: center;
+}
+
+.section-sponsors h3 {
+    color: #ba9372;
+    font-weight: 300;
+    font-size: 3em;
+}
+
+.section-partners h3 {
+    color: #ba9372;
+    font-weight: 300;
+    font-size: 3em;
+}
+
+.section-partners p {
+    max-height: 5vh;
+    padding: 0 1em;
+    margin-top: 1em;
+    text-align: center;
+}
